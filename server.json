@@ -11,7 +11,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://bintool.brkd.no/anything/mcp-brkd-canary"
+      "url": "https://bintool.brkd.no/anything/mcp-empty-public-canary"
     }
   ]
 }
