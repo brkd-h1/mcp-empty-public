@@ -1,12 +1,21 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.brkd-h1/mcp-empty-public",
-  "description": "Minimal streamable HTTP MCP server used for owned-account registry connectivity tests.",
-  "version": "0.0.1",
+  "description": "Minimal MCP server used for owned-account registry connectivity tests.",
+  "version": "0.0.2",
   "repository": {
     "url": "https://github.com/brkd-h1/mcp-empty-public",
     "source": "github"
   },
+  "packages": [
+    {
+      "registryType": "oci",
+      "identifier": "ghcr.io/brkd-h1/mcp-empty-public:0.0.2",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
